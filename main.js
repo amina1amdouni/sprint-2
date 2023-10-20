@@ -31,3 +31,29 @@
 // Write a function called hasUniqueCharacters that takes a string as input and returns true if all the characters in the string are unique (i.e., none of the characters repeat), and false otherwise.
 
 // Write a function called isPrimeProduct that takes two positive integers as input and returns true if their product is a prime number, and false otherwise.
+
+
+///ex1
+function Operation(a, b, operator) {
+    if (operator === "+") {
+        return a + b
+    } else if (operator === "-") {
+        return a - b
+    } else if (operator === "*") {
+        return a * b
+    } else if (operator === "/") {
+            return a / b
+        } else if (operator === "/"){ if (b=0){
+            return 'null'}}
+    else { return 'null'}}
+
+
+    //ex2
+
+
+    ///ex3 
+    function isValidPassword(password) {
+        if (password.length < 8) {
+            return false
+        }}
+        
