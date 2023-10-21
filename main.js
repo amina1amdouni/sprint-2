@@ -49,6 +49,12 @@ function Operation(a, b, operator) {
 
 
     //ex2
+    function isLeapYear (year){
+        if (year%4===0 && year%400===0 && year%100!==0){
+            return true }
+        else {return false}
+    }
+    
 
 
     ///ex3 
